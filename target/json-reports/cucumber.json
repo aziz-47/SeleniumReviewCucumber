@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-21T21:06:27.232Z",
+        "line": 2,
+        "name": "TC01_kullanici googleda techproeducation aramasi yapar",
+        "description": "",
+        "id": "google-arama;tc01-kullanici-googleda-techproeducation-aramasi-yapar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "kullanici google sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "arama kutusuna techproeducation yazar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "arama sonuclari sayfasinin basligini kontrol eder",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google arama",
+    "description": "",
+    "id": "google-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/googlearama.feature",
+    "tags": []
+  }
+]
